@@ -5,9 +5,7 @@ def prime?(integer)
   test_array.each {|i| divided_integers.push((integer.to_f)/i)}
   divided_integers
   n = 0
-  if integer < 2
-    false
-  elsif (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer)
+  while (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer || integer < 2)
     n += 1
     false
   else
