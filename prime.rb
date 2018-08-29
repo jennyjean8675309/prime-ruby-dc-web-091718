@@ -9,7 +9,7 @@ def prime?(integer)
   n = 0
   if integer < 2
     false
-  else
+  elsif
     while (modulo_operators[n] == 0 && modulo_operators[n] != integer)
     n += 1
     false
