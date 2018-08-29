@@ -5,11 +5,13 @@ def prime?(integer)
   test_array.each {|i| divided_integers.push((integer.to_f)/i)}
   divided_integers
   n = 0
-  loop do
-    while (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer || integer < 2)
+  if n < 2
+    false
+  else if (n >= 2)
+    if (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer || integer < 2)
       false
       n += 1
-     true
+    else true
     end
   end
 end
