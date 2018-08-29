@@ -13,6 +13,4 @@ def prime?(integer)
     false
     n += 1
   end
-  
-  end
 end
