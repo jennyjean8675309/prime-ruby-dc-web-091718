@@ -11,4 +11,5 @@ def prime?(integer)
       n += 1
      true
     end
+  end
 end
