@@ -6,8 +6,8 @@ def prime?(integer)
     modulo_operators.push(integer % i)
   end
   n = 0
-  if (modulo_operators[n] == 0 && modulo_operators[n] == integer)
-    true
+  while (modulo_operators[n] == 0 && modulo_operators[n] == integer)
+   true
   else 
     false
   end
