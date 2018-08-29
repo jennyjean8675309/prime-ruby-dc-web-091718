@@ -13,7 +13,7 @@ def prime?(integer)
     if (modulo_operators[n] == 0 && test_array[n] != integer)
     n += 1
     false
-else
+    else
     true
   end
 end
