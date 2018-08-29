@@ -11,7 +11,7 @@ def prime?(integer)
   check_for_float = []
   divided_integers.each do |n|
     check_for_float.push(n.is_a?(Integer))
-    if check_for_float.include?(Integer)
+    if check_for_float.include?(Integer) && n != integer
       false
     else true
     end
