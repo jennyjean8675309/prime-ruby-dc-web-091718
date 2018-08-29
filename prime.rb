@@ -11,9 +11,10 @@ def prime?(integer)
     false
   elsif integer >= 2
       check_for_zeros = modulo_operators.sort
-      if check_for_zeros[1] == 0
-      false
-    end
-      true
+     if check_for_zeros[1] == 0
+       false
+     else
+       true
+     end
   end
 end
