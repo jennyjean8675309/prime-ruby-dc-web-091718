@@ -5,7 +5,8 @@ def prime?(integer)
   test_array.each do |i|
     modulo_operators.push(integer % i)
   end
-  if modulo_operators[0] == 0
+  n = 0
+  if (modulo_operators[n] == 0 && modulo_operators[n] == integer)
     true
   else 
     false
