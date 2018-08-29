@@ -12,5 +12,6 @@ def prime?(integer)
     while (modulo_operators[n] == 0 && modulo_operators[n] != integer)
     false
     n += 1
+    end
   end
 end
