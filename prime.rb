@@ -3,7 +3,6 @@ def prime?(integer)
   test_array = test_factors.to_a
   divided_integers = []
   test_array.each {|i| divided_integers.push(integer.to_f/i)}
-  divided_integers
   if integer < 2
     false
   else integer >= 2
