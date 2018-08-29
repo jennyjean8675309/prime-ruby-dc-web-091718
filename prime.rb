@@ -6,9 +6,13 @@ def prime?(integer)
     modulo_operators.push(integer % i)
   end
   n = 0
-  while (modulo_operators[n] == 0 && modulo_operators[n] == integer)
-   true
-  else 
+  if integer < 2
     false
+  else
+    while (modulo_operators[n] == 0 && modulo_operators[n] != integer)
+    false
+    n += 1
+  end
+  
   end
 end
