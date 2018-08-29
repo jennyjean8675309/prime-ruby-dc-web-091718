@@ -8,7 +8,7 @@ def prime?(integer)
     false
   else integer >= 2
     n = 0
-     (divided_integers[n].is_a?(Integer) && divided_integers[n] != integer)
+    if (divided_integers[n].is_a?(Integer) && divided_integers[n] != integer)
       false
       n += 1
     else true
