@@ -10,7 +10,7 @@ def prime?(integer)
   if integer < 2
     false
   elsif
-    while (modulo_operators[n] == 0 && modulo_operators[n] != integer)
+    while (modulo_operators[n] == 0 && test_array[n] != integer)
     n += 1
     false
     end
