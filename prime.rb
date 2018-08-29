@@ -5,6 +5,7 @@ def prime?(integer)
   test_array.each do |i|
     modulo_operators.push(integer % i)
   end
+  modulo_operators
   n = 0
   if integer < 2
     false
