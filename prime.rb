@@ -11,11 +11,10 @@ def prime?(integer)
     false
   elsif integer >= 2
     if (modulo_operators[n] == 0 && test_array[n] != integer)
-    n += 1
-    false
+      n += 1
+      false
     else
-      
-    true
+      true
+    end
   end
-end
 end
