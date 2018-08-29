@@ -10,8 +10,8 @@ def prime?(integer)
     false
   else
     while (modulo_operators[n] == 0 && modulo_operators[n] != integer)
-    false
     n += 1
+    false
     end
   end
 end
