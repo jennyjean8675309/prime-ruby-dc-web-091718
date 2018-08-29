@@ -6,9 +6,9 @@ def prime?(integer)
   divided_integers
   n = 0
   loop do
-    if (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer || integer < 2)
-    false
-    n += 1
+    while (divided_integers[n].is_a?(Integer) == true && divided_integers[n] != integer || integer < 2)
+      false
+      n += 1
     else true
     end
   end
