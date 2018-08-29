@@ -7,9 +7,13 @@ def prime?(integer)
   n = 0
   if n < 2
     false
-  elsif (divided_integers[n].is_a?(Integer) == true)
+  elsif n >= 2
+  check_for_float = []
+  divided_integers.each do |n|
+    check_for_float.push(n.is_a?(Integer))
+    if check_for_float.include?(Integer)
       false
-      n += 1
-  else true
+    else true
+    end
   end
 end
