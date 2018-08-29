@@ -5,9 +5,9 @@ def prime?(integer)
   test_array.each {|i| divided_integers.push((integer.to_f)/i)}
   divided_integers
   n = 0
-  if n < 2
+  if integer < 2
     false
-  elsif n >= 2
+  elsif integer >= 2
   check_for_float = []
   divided_integers.each do |n|
     check_for_float.push(n.is_a?(Integer))
